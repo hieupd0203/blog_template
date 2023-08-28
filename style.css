@@ -138,6 +138,40 @@ hr{
     color: #fff;
  }
 /* end */
+/* begin: footer */
+footer{
+    background-color: #616161;
+    padding: 3.2rem 1.6rem;
+    margin-top: 1.5rem;
+}
+footer button{
+    color: #fff;
+    background-color: #000;
+    padding: 1.2rem 2.4rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+
+}
+footer button:hover{
+    background-color: #ccc;
+    color: #000;
+}
+footer button:first-child{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+footer button:last-child{
+    cursor: pointer;
+}
+footer p{
+    color: #fff;
+    margin: 1.5rem 0;
+}
+footer a{
+    color: #fff;
+}
+/* end */
 /* end */
 
 @media screen and (min-width:601px) {
