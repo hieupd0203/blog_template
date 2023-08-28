@@ -1,30 +1,172 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    font-size: 10px;
+html {
+  font-size: 10px;
 }
-body{
-    font-size: 1.5rem;
-    font-family: 'Raleway', sans-serif;
-    background-color: #f1f1f1;
+body {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  background-color: #f1f1f1;
+  line-height: 1.5;
 }
 /* begin: header */
-.header-title{
-    font-size: 3.6rem;
-    font-weight: 600;
-    text-align: center;
-    margin-top: 4rem;
+.header-title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 4rem;
 }
-.header-desc{
-    text-align: center;
-    margin: 1.5rem 0 4rem 0;
+.header-desc {
+  text-align: center;
+  margin: 1.5rem 0 4rem 0;
 }
-.header-desc span{
-    background-color: #000;
-    color: #fff;
-    padding: 0 0.8rem;
+.header-desc span {
+  background-color: #000;
+  color: #fff;
+  padding: 0 0.8rem;
+  display: inline-block;
 }
 /* end */
+/* begin: content */
+/* begin: title-heading */
+.heading,.entry,.about-card,.post-group,.tags {
+  margin: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading-img,.entry-img {
+  width: 100%;
+}
+.heading-content,.entry-content {
+  padding: 0 1.6rem;
+}
+.heading-title,.entry-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+.heading-text,.entry-text {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+.heading-date,.entry-date {
+  opacity: 0.6;
+}
+.heading-desc,.entry-desc {
+  margin: 1.5rem 0;
+}
+.heading-btn,.entry-btn {
+  padding: 1.2rem 2.4rem;
+  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 0.1rem solid #ccc;
+  cursor: pointer;
+  margin: 1.5rem 0;
+}
+.heading-btn:hover,.entry-btn:hover {
+  background-color: #ccc;
+}
+.heading-cmt,.entry-cmt{
+    display: none;
+}
+hr{
+    border: none;
+    margin: 2rem;
+}
+/* end */
+/* begin: my-name */
+.card-img{
+  width: 100%;
+}
+.card-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 0 1.6rem;
+}
+.card-desc{
+    margin: 1.5rem 0;
+    padding: 0 1.6rem;
+}
+/* end */
+/* begin: popular-post */
+.post-title,.tags-title{
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1.8rem 1.6rem;
+    background-color: #f1f1f1;
+}
+.post-item{
+    padding: 1.6rem;
+    border-bottom: 1px solid #ddd;
+
+}
+.post-item:hover{
+    background-color: #ccc;
+}
+.post-img{
+    width: 5rem;
+    margin-right: 1.5rem;
+    float: left;
+}
+.post-text{
+    display: block;
+    font-size: 1.8rem;
+}
+.mingsum{
+    display: none;
+}
+/* end */
+/* begin-tags */
+ .tags-group{
+    padding: 1.6rem;
+ }
+ .tags-item{
+    display: inline-block;
+    padding: 0 0.8rem;
+    margin-bottom: 1.5rem;
+    background-color: #f1f1f1;
+    font-size: 1.2rem;
+ }
+ .tags-group span:first-child{
+    font-size: 1.5rem;
+    background-color: #000;
+    color: #fff;
+ }
+/* end */
+/* end */
+
+@media screen and (min-width:601px) {
+
+    .heading-cmt,.entry-cmt {
+        display: block;
+        float: right;
+        font-weight: 600;
+        padding: 1.2rem 2.4rem;
+        margin: 1.5rem 0;
+      }
+      .heading-number,.entry-number {
+        background-color: #000;
+        color: #fff;
+        padding: 0 0.8rem;
+        display: inline-block;
+        
+      }
+      .entry-number{
+        border-radius: 50%;
+      }
+}
+@media screen and (min-width:992px){
+    .container{
+        max-width: 140rem;
+        margin: 0 auto;
+        display: flex;
+    }
+    .mingsum{
+        display: block;
+    }
+}

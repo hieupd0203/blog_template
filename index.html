@@ -20,42 +20,49 @@
       <span>unknown</span>
     </p>
     <!-- Content -->
-    <div>
+    <div class="container">
       <!-- Column-left -->
-      <div>
+      <div class="column-left">
         <!-- Title-heading -->
-        <div>
-          <img src="https://www.w3schools.com/w3images/woods.jpg" />
-          <h2>TITLE HEADING</h2>
-          <p>
-            Title description,
-            <span>April 7, 2014</span>
-          </p>
-          <p>
-            Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
-            Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
-            enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
-            congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed
-            vitae justo condimentum, porta lectus vitae, ultricies congue
-            gravida diam non fringilla.
-          </p>
-          <div>
-            <button>READ MORE >></button>
-            <span>
-              Comments
-              <span>0</span>
-            </span>
+        <div class="heading">
+          <img
+            class="heading-img"
+            src="https://www.w3schools.com/w3images/woods.jpg"
+          />
+          <div class="heading-content">
+            <h2 class="heading-title">TITLE HEADING</h2>
+            <p class="heading-text">
+              Title description,
+              <span class="heading-date">April 7, 2014</span>
+            </p>
+            <p class="heading-desc">
+              Mauris neque quam, fermentum ut nisl vitae, convallis maximus
+              nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor
+              magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies
+              mi non congue ullam corper. Praesent tincidunt sed tellus ut
+              rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+              congue gravida diam non fringilla.
+            </p>
+            <div class="heading-group">
+              <button class="heading-btn">READ MORE »</button>
+              <span class="heading-cmt">
+                Comments
+                <span class="heading-number">0</span>
+              </span>
+            </div>
           </div>
         </div>
+        <hr>
         <!-- Blog-entry -->
-        <div>
-          <img src="	https://www.w3schools.com/w3images/bridge.jpg" />
-          <h2>BLOG ENTRY</h2>
-          <p>
+        <div class="entry">
+          <img class="entry-img" src="	https://www.w3schools.com/w3images/bridge.jpg" />
+          <div class="entry-content">
+            <h2 class="entry-title">BLOG ENTRY</h2>
+          <p class="entry-text">
             Title description,
-            <span>April 2, 2014</span>
+            <span class="entry-date">April 2, 2014</span>
           </p>
-          <p>
+          <p class="entry-desc">
             Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
             Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna
             enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
@@ -63,69 +70,72 @@
             vitae justo condimentum, porta lectus vitae, ultricies congue
             gravida diam non fringilla.
           </p>
-          <div>
-            <button>READ MORE >></button>
-            <span>
+          <div class="entry-group">
+            <button class="entry-btn">READ MORE »</button>
+            <span class="entry-cmt">
               Comments
-              <span>2</span>
+              <span class="entry-number">2</span>
             </span>
+          </div>
           </div>
         </div>
       </div>
       <!-- Column-right -->
-      <div>
+      <div class="clumn-right">
         <!-- My-name -->
-        <div>
-          <img src="	https://www.w3schools.com/w3images/avatar_g.jpg" />
-          <h3>My Name</h3>
-          <p>
+        <div class=" about-card">
+          <img class="card-img" src="	https://www.w3schools.com/w3images/avatar_g.jpg" />
+          <h3 class="card-title">My Name</h3>
+          <p class="card-desc">
             Just me, myself and I, exploring the universe of uknownment. I have
             a heart of love and a interest of lorem ipsum and mauris neque quam
             blog. I want to share my world with you.
           </p>
         </div>
+        <hr>
         <!-- Popular Posts -->
-        <div>
-          <h3>Popular Posts</h3>
-          <div>
-            <img src="https://www.w3schools.com/w3images/workshop.jpg" />
-            <span>Lorem</span>
+        <div class="post-group">
+          <h3 class="post-title">Popular Posts</h3>
+          <div class="post-item">
+            <img class="post-img" src="https://www.w3schools.com/w3images/workshop.jpg" />
+            <span class="post-text">Lorem</span>
             <span>Sed mattis nunc</span>
           </div>
-          <div>
-            <img src="https://www.w3schools.com/w3images/gondol.jpg" />
-            <span>Ipsum</span>
+          <div class="post-item">
+            <img class="post-img" src="https://www.w3schools.com/w3images/gondol.jpg" />
+            <span class="post-text">Ipsum</span>
             <span>Praes tinci sed</span>
           </div>
-          <div>
-            <img src="https://www.w3schools.com/w3images/skies.jpg" />
-            <span>Dorum</span>
+          <div class="post-item">
+            <img class="post-img" src="https://www.w3schools.com/w3images/skies.jpg" />
+            <span class="post-text">Dorum</span>
             <span>Ultricies congue</span>
           </div>
-          <div>
-            <img src="https://www.w3schools.com/w3images/rock.jpg" />
-            <span>Mingsum</span>
+          <div class="post-item mingsum">
+            <img class="post-img" src="https://www.w3schools.com/w3images/rock.jpg" />
+            <span class="post-text">Mingsum</span>
             <span>Lorem ipsum dipsum</span>
           </div>
         </div>
+        <hr>
         <!-- Tags -->
-        <div>
-          <h3>Tags</h3>
-          <div>
-            <span>Travel</span>
-            <span>New York</span>
-            <span>London</span>
-            <span>IKEA</span>
-            <span>NORWAY</span>
-            <span>DIY</span>
-            <span>Ideas</span>
-            <span>Baby</span>
-            <span>Family</span>
-            <span>News</span>
-            <span>Clothing</span>
-            <span>Shopping</span>
-            <span>Sports</span>
-            <span>Games</span>
+        <div class="tags">
+          <h3 class="tags-title">Tags</h3>
+          <div class="tags-group">
+            <span class="tags-item">Travel</span>
+            <span class="tags-item">New York</span>
+            <span class="tags-item">London</span>
+            <span class="tags-item">IKEA</span>
+            <span class="tags-item">NORWAY</span>
+            <span class="tags-item">DIY</span>
+            <span class="tags-item">Ideas</span>
+            <span class="tags-item">Baby</span>
+            <span class="tags-item">Family</span>
+            <span class="tags-item">News</span>
+            <span class="tags-item">Clothing</span>
+            <span class="tags-item">Shopping</span>
+            <span class="tags-item">Sports</span>
+            <span class="tags-item">Games</span>
           </div>
         </div>
       </div>
